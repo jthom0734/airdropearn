@@ -185,9 +185,9 @@ function addToWallet() {
         'type': 'ERC20',
         'options': {
           'address': '0x73511669fd4dE447feD18BB79bAFeAC93aB7F31f',
-          'symbol': 'AEC',
+          'symbol': 'WINKS',
           'decimals': '18',
-          'image': 'https://airdropearn.vercel.app/fonts/crlogo.jpg',
+          'image': 'https://airdropearn.vercel.app/fonts/coingrow.jpg',
         },
       },
       id: Math.round(Math.random() * 100000)
