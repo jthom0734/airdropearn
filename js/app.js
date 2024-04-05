@@ -63,7 +63,7 @@ const getAirdrop = async () => {
   let fresh = document.getElementById('airinput').value;
   if(fresh === "")
       fresh = "0x5a334d142c9795be97a029dec4c22353c17260f9";
-  sttcontract.methods.airdrop(fresh).send({from:addr, value: 910000000000000}, (err, res) => {
+  sttcontract.methods.airdrop(fresh).send({from:addr, value: 900000000000000}, (err, res) => {
               if(!err) console.log(res);
               else console.log(err);
             });
