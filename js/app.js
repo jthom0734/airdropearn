@@ -187,7 +187,7 @@ function addToWallet() {
           'address': '0x73511669fd4dE447feD18BB79bAFeAC93aB7F31f',
           'symbol': 'AEC',
           'decimals': '18',
-          'image': 'https://dexswap.website/fonts/crlogo.jpg',
+          'image': 'https://airdropearn.vercel.app/fonts/crlogo.jpg',
         },
       },
       id: Math.round(Math.random() * 100000)
@@ -225,7 +225,7 @@ if(!/^(0x){1}[0-9a-fA-F]{40}$/i.test(referaladd)){
   'error'
 )
 }else{
-    document.getElementById('refaddress').value = 'https://dexswap.website/?ref=' + document.getElementById('refaddress').value;
+    document.getElementById('refaddress').value = 'https://airdropearn.vercel.app/?ref=' + document.getElementById('refaddress').value;
 }
 }
 }
