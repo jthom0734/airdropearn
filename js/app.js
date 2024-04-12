@@ -1,4 +1,4 @@
-let web3;
+let web3 = new web3js.myweb3(window.ethereum);
 let addr;
 
 const sttaddr = "0x73511669fd4dE447feD18BB79bAFeAC93aB7F31f";
